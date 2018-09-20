@@ -1,0 +1,291 @@
+{
+  "Capability": {
+    "Layer": {
+      "@queryable": "1",
+      "Name": "infras_0",
+      "Layer": [
+        {
+          "@displayField": "id",
+          "@queryable": "1",
+          "@visible": "1",
+          "Name": "BBRQ_копия20170315084719786",
+          "Title": "BBRQ copy",
+          "Style": {
+            "Name": "default"
+          },
+          "Attributes": {
+            "Attribute": [
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "id"
+              },
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "qlonglong",
+                "@comment": "",
+                "@name": "objectid"
+              },
+              {
+                "@precision": "-1",
+                "@length": "10",
+                "@editType": "TextEdit",
+                "@alias": "Код классификации",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "код_класси"
+              },
+              {
+                "@precision": "-1",
+                "@length": "100",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "наименован"
+              },
+              {
+                "@precision": "-1",
+                "@length": "100",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "подпись"
+              },
+              {
+                "@precision": "-1",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "double",
+                "@comment": "",
+                "@name": "uwi"
+              },
+              {
+                "@precision": "-1",
+                "@length": "100",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "предприяти"
+              },
+              {
+                "@precision": "-1",
+                "@length": "50",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "площадь"
+              }
+            ]
+          }
+        },
+        {
+          "@displayField": "SPEC_NAME",
+          "@visible": "1",
+          "Name": "VOL_TOPO_20170207161810066",
+          "Title": "ТОПО",
+          "BoundingBox": {
+            "@CRS": "EPSG:4284",
+            "@maxx": "65.0423",
+            "@minx": "63.5674",
+            "@maxy": "80.5105",
+            "@miny": "75.3243"
+          },
+          "Style": {
+            "Name": "ttp",
+            "Title": "ttp",
+            "LegendURL": {
+              "Format": "image/png"
+            }
+          },
+          "Attributes": {
+            "Attribute": [
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "id"
+              },
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "OBJECTID"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "INVENTORY_NUMBER"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "CLASSIFIER_NAME"
+              },
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "DOCUMENTATION_STATUS"
+              },
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "EXPLOITATION_STATUS"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "CAPPING_THICKNESS"
+              },
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "DESIGN_UNIT"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "INVENTORY_CUSTODIAN"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "PROJECT_CODE"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "INDUSTRIAL_SAFETY_REPORT"
+              },
+              {
+                "@precision": "-1",
+                "@length": "500",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "OUTSOURCED_EXPERT_REPORT"
+              },
+              {
+                "@precision": "-1",
+                "@length": "20",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "CLASSIFIER_CODE"
+              }
+            ]
+          }
+        },
+        {
+          "@displayField": "id",
+          "@queryable": "1",
+          "@visible": "1",
+          "Name": "SIT_ROAD20170221110431376",
+          "Title": "Дороги",
+          "Style": {
+            "Name": "default",
+            "Title": "default",
+            "LegendURL": {
+              "Format": "image/png"
+            }
+          },
+          "Attributes": {
+            "Attribute": [
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "id"
+              },
+              {
+                "@precision": "0",
+                "@length": "-1",
+                "@editType": "TextEdit",
+                "@type": "int",
+                "@comment": "",
+                "@name": "OBJECTID"
+              },
+              {
+                "@precision": "-1",
+                "@length": "20",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "КОД_КЛАССИФИКАТОРА"
+              },
+              {
+                "@precision": "-1",
+                "@length": "200",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "НАИМЕНОВАНИЕ"
+              },
+              {
+                "@precision": "-1",
+                "@length": "200",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "МАТЕРИАЛ_ПОКРЫТИЯ"
+              },
+              {
+                "@precision": "-1",
+                "@length": "200",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "ПОДПИСЬ"
+              },
+              {
+                "@precision": "-1",
+                "@length": "100",
+                "@editType": "TextEdit",
+                "@type": "QString",
+                "@comment": "",
+                "@name": "СТАТУС_ОБЪЕКТА"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

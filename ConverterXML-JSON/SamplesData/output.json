@@ -1,0 +1,49 @@
+{
+	"name": "infras_0",
+	"title": "",
+	"sublayers": [
+		{
+			"name": "BBRQ_копия20170315084719786",
+			"title": "BBRQ copy",
+			"attributes": [
+				{
+					"name": "id",
+					"type": "int"
+				},
+				{
+					"name": "objectid",
+					"type": "qlonglong"
+				},
+				{
+					"name": "код_класси",
+					"type": "QString"
+				}
+				
+				...
+			]
+		},
+		
+		{
+			"name": "VOL_TOPO_20170207161810066",
+			"title": "ТОПО",
+			"attributes": [
+				{
+					"name": "id",
+					"type": "int"
+				},
+				{
+					"name": "OBJECTID",
+					"type": "int"
+				},
+				{
+					"name": "INVENTORY_NUMBER",
+					"type": "QString"
+				}
+				
+				...
+			]
+		},
+		
+		...
+	] 
+}
