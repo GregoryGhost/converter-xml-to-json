@@ -24,7 +24,7 @@ namespace ConversionTools
 
         private XmlDocument _doc;
 
-        private const string _tagRoot = "Capability/Layer/Layer";
+        private const string _tagRoot = "Capability/Layer/*";
         
         public ParserXml()
         {
